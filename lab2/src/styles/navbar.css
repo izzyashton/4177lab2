@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.secondary-btn {
+  background: white;
+  border: 1px solid #d1d5db;
+  padding: 12px 22px;
+  border-radius: 10px;
+}
+
+.text-btn {
+  background: transparent;
+}

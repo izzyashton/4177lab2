@@ -1,0 +1,57 @@
+.launch {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.badge {
+  background: #e8f0ff;
+  color: #2563eb;
+  padding: 8px 16px;
+  border-radius: 999px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.launch h1 {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.launch p {
+  margin-top: 24px;
+  max-width: 700px;
+  color: #6b7280;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.launch-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.features {
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.feature {
+  max-width: 220px;
+}
+
+.feature h4 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+}
